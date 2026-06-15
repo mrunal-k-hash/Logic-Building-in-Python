@@ -16,11 +16,22 @@ else:
     else:
         print(num, "is not a prime number.")"""
 
-
 # wap to reverse any no using a function
-def reverse(n):
+"""def reverse(n):
     rev = 0
     while n > 0:
         rev = rev * 10 + n % 10
         n //= 10
-    return rev
+    return rev"""
+
+
+# wap to calculate factorial of a number using a function
+def fact(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * fact(n - 1)
+
+
+num = int(input("Enter a number: "))
+print("Factorial of", num, "is", fact(num))
