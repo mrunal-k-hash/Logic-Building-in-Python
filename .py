@@ -26,7 +26,7 @@ else:
 
 
 # wap to calculate factorial of a number using a function
-def fact(n):
+"""def fact(n):
     if n == 0 or n == 1:
         return 1
     else:
@@ -34,4 +34,24 @@ def fact(n):
 
 
 num = int(input("Enter a number: "))
-print("Factorial of", num, "is", fact(num))
+print("Factorial of", num, "is", fact(num))"""
+
+
+# wap to calculate addition of 2 , 3 or n nos or list using a function
+def add(a, b):
+    return a + b
+
+
+# main
+x = 10
+y = 20
+x = 30
+l = 40
+m = 50
+print("addition of x and y =", add(x, y))
+print("addition of x and y z l and m = ", add(add(add(x, y), l), m))
+L1 = [1, 2, 3, 4, 5]
+sum = 0
+for ele in L1:
+    sum = add(sum, ele)
+    print("addition of list elements = ", sum)
