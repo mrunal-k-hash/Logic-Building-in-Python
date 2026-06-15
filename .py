@@ -38,6 +38,7 @@ print("Factorial of", num, "is", fact(num))"""
 
 
 # wap to calculate addition of 2 , 3 or n nos or list using a function
+"""
 def add(a, b):
     return a + b
 
@@ -54,4 +55,11 @@ L1 = [1, 2, 3, 4, 5]
 sum = 0
 for ele in L1:
     sum = add(sum, ele)
-    print("addition of list elements = ", sum)
+    print("addition of list elements = ", sum)"""
+
+
+# wap to calculate square root
+
+num = float(input("enter a number: "))
+sr = num**0.5
+print("square root of given number is ", sr)
