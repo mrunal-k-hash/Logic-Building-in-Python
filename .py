@@ -60,6 +60,13 @@ for ele in L1:
 
 # wap to calculate square root
 
-num = float(input("enter a number: "))
+"""num = float(input("enter a number: "))
 sr = num**0.5
+print("square root of given number is ", sr)"""
+
+# help of math module
+import math
+
+num = float(input("enter a number: "))
+sr = math.sqrt(num)
 print("square root of given number is ", sr)
