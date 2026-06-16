@@ -65,3 +65,12 @@ if num % 2 == 0:
     print("number is even")
 else:
     print("number is odd")"""
+
+# wap to check whether a year is leap year or not
+year = int(input("enter a year: "))
+if (year % 400 == 0) and (year % 100 == 0):
+    print("its a leap year ")
+elif (year % 4 == 0) and (year % 100 != 0):
+    print("its a leap year")
+else:
+    print("it's not a leap year")
