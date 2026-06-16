@@ -36,10 +36,25 @@ print("value of y after swapping is", y)"""
 
 # variable swapping without using third variable
 
-x = float(input("enter a number: "))
+"""x = float(input("enter a number: "))
 y = float(input("enter another number: "))
 print(x)
 print(y)
 x, y = y, x
 print("value of x ", x)
-print("value of y", y)
+print("value of y", y)"""
+
+
+# wap to convert km to m
+"""km = float(input("enter distance in km : "))
+m = km * 1000
+print(km, "km will be  ", m, "m")"""
+
+# wap to check whether a number is positive, negative or zero
+num = float(input("enter a number: "))
+if num > 0:
+    print("number is positive")
+elif num < 0:
+    print("number is negative")
+else:
+    print("number is zero")
