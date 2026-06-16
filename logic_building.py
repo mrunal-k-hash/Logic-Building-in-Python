@@ -51,10 +51,17 @@ m = km * 1000
 print(km, "km will be  ", m, "m")"""
 
 # wap to check whether a number is positive, negative or zero
-num = float(input("enter a number: "))
+"""num = float(input("enter a number: "))
 if num > 0:
     print("number is positive")
 elif num < 0:
     print("number is negative")
 else:
-    print("number is zero")
+    print("number is zero")"""
+
+# wap to check whether a number is even or odd
+"""num = float(input("enter a number "))
+if num % 2 == 0:
+    print("number is even")
+else:
+    print("number is odd")"""
