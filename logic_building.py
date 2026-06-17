@@ -96,7 +96,7 @@ else:
     print("all numbers are equal")"""
 
 # wap to check whether a number is prime or not
-num = int(input("enter any no: "))
+"""num = int(input("enter any no: "))
 
 if num == 1:
     print("its not a prime number ")
@@ -106,4 +106,10 @@ if num > 1:
             print(num, "its not a prime number")
             break
     else:
-        print(num, "its a prime number")
+        print(num, "its a prime number")"""
+
+# wap to generate a random number between 1 and 23
+"""import random
+
+num = random.randint(1, 23)
+print(num)"""
