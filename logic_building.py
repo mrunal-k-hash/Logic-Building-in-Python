@@ -76,7 +76,7 @@ else:
     print("it's not a leap year")"""
 
 # wap to find greatest of three numbers
-num1 = float(input("enter first number: "))
+"""num1 = float(input("enter first number: "))
 num2 = float(input("enter second number: "))
 num3 = float(input("enter third number:"))
 
@@ -93,4 +93,17 @@ elif num2 == num3 and num2 > num1:
 elif num3 == num1 and num3 > num2:
     print(num3, "and", num1, "are greater")
 else:
-    print("all numbers are equal")
+    print("all numbers are equal")"""
+
+# wap to check whether a number is prime or not
+num = int(input("enter any no: "))
+
+if num == 1:
+    print("its not a prime number ")
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print(num, "its not a prime number")
+            break
+    else:
+        print(num, "its a prime number")
