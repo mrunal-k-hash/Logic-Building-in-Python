@@ -117,7 +117,7 @@ print(num)"""
 
 # wap to check whether a number is weird or not
 
-
+"""
 n = int(input("enter a number: "))
 if n % 2 != 0:
     print("weird")
@@ -126,4 +126,12 @@ elif 2 <= n <= 5:
 elif 6 <= n <= 20:
     print("Weird")
 elif n > 20:
-    print("Not Weird")
+    print("Not Weird")"""
+
+# wap to perform basic arithmetic operations
+"""num1 = int(input())
+num2 = int(input())
+
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)"""
