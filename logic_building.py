@@ -113,3 +113,17 @@ if num > 1:
 
 num = random.randint(1, 23)
 print(num)"""
+
+
+# wap to check whether a number is weird or not
+
+
+n = int(input("enter a number: "))
+if n % 2 != 0:
+    print("weird")
+elif 2 <= n <= 5:
+    print("Not Weird")
+elif 6 <= n <= 20:
+    print("Weird")
+elif n > 20:
+    print("Not Weird")
