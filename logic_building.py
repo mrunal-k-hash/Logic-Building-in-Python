@@ -135,3 +135,37 @@ num2 = int(input())
 print(num1 + num2)
 print(num1 - num2)
 print(num1 * num2)"""
+
+
+# Array
+
+"""num = [3, 7, 10]
+
+for i in range(len(num)):
+    print(num[i] + 1)"""
+
+
+"""nums = [2, 5, 3]
+total = 0
+for i in range(len(nums)):
+    total += nums[i]
+print(total)"""
+
+
+"""num = [2, 4, 7]
+total = 0
+for i in range(len(num)):
+    if num[i] >= 2:
+        total += num[i]
+
+print(total)"""
+
+
+nums = [2, 8, 4, 10]
+count = 0
+
+for i in range(len(nums)):
+    if nums[i] > 5:
+        count += nums[i]
+
+print(count)
