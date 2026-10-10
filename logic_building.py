@@ -161,11 +161,10 @@ for i in range(len(num)):
 print(total)"""
 
 
-nums = [2, 8, 4, 10]
+"""nums = [2, 8, 4, 10]
 count = 0
 
 for i in range(len(nums)):
     if nums[i] > 5:
-        count += nums[i]
-
-print(count)
+        count += 1
+print(count)"""
